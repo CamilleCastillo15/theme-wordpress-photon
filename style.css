@@ -23,17 +23,17 @@ General comments (optional).
 	font-family: 'basictitlefont';
 	src: url('./basictitlefont.eot');
 	src: local('basictitlefont'), 
-	url('../webfonts/basictitlefont.woff') format('woff'), 
-	url('../webfonts/basictitlefont.ttf') format('truetype');
+	url('webfonts/basictitlefont.woff') format('woff'), 
+	url('webfonts/basictitlefont.ttf') format('truetype');
 }
 
 /* INTRO */
 @font-face {
     font-family: 'Intro';
-    src:url('../webfonts/Intro.ttf.woff') format('woff'),
-        url('../webfonts/Intro.ttf.svg#Intro') format('svg'),
-        url('../webfonts/Intro.ttf.eot'),
-        url('../webfonts/Intro.ttf.eot?#iefix') format('embedded-opentype'); 
+    src:url('webfonts/Intro.ttf.woff') format('woff'),
+        url('webfonts/Intro.ttf.svg#Intro') format('svg'),
+        url('webfonts/Intro.ttf.eot'),
+        url('webfonts/Intro.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }
@@ -117,7 +117,7 @@ a:hover {
 
 /* HEADER */
 #head {
-background:url(../background/bck_header.png) no-repeat; 
+background:url(background/bck_header.png) no-repeat; 
 height:1056px;
 max-width:1600px;
 /* width: 338vh; */
@@ -129,7 +129,7 @@ padding-top: 2%;
 
 #menu_haut
 {
-  background: url(../images/bandeau_menu_haut.png) no-repeat;
+  background: url(images/bandeau_menu_haut.png) no-repeat;
   height: 74px;
   background-size: 100% 100%;
 }
@@ -177,7 +177,7 @@ clip-path: polygon(20% 0, 79% 0, 100% 50%, 79% 100%, 20% 100%, 0 50%);
 
 #img_ampli
 {
-background:url(../images/ampli_v2.png) bottom left no-repeat;
+background:url(images/ampli_v2.png) bottom left no-repeat;
 max-width:351px;
 max-height:303px;
 width: 61vh;
@@ -187,7 +187,7 @@ background-size:100% 100%;
 
 #img_logo
 {
-  background: url(../images/logo.png) top right no-repeat;
+  background: url(images/logo.png) top right no-repeat;
   width: 425px;
   height: 170px;
   /* width: 61vh; */
@@ -228,7 +228,7 @@ background-size:100% 100%;
 
 #triangle_1
 {
-background:url(../images/triangle_1.png) top right no-repeat;
+background:url(images/triangle_1.png) top right no-repeat;
 width:623px;
 height:1057px;
 }
@@ -256,7 +256,7 @@ position:relative;
 }
 
 #zoom {
-  background: url(../images/loupe.png) no-repeat;
+  background: url(images/loupe.png) no-repeat;
   width: 78px;
   height: 80px;
   position: absolute;
@@ -265,7 +265,7 @@ position:relative;
 }
 
 #zoom_2 {
-  background: url(../images/loupe.png) no-repeat;
+  background: url(images/loupe.png) no-repeat;
   width: 78px;
   height: 80px;
   position: absolute;
@@ -303,8 +303,8 @@ transition: 0.4s cubic-bezier(1, -1, 0, 2);
   width: 221px;
   height: 193px;
    -webkit-clip-path: polygon(50% 4%, 0 100%, 100% 100%);
-		  clip-path: url("#clip-svg-demo");
-		  mask: url("#clip-svg-demo");
+		  clip-path: url("f#clip-svg-demo");
+		  mask: url("../#clip-svg-demo");
   /*top: 235px;
   left: 470px;*/
 }
@@ -369,7 +369,7 @@ display:none;
 
 #rectangle_photos
 {
-  background: url(../images/rectangle_photos.png) no-repeat;
+  background: url(images/rectangle_photos.png) no-repeat;
   max-height: 466px;
   max-width: 1297px;
   margin-left: 2%;
@@ -380,7 +380,7 @@ display:none;
 }
 
 #triangle_haut {
-  background: url(../images/haut_triangle_avis_v2.png) no-repeat;
+  background: url(images/haut_triangle_avis_v2.png) no-repeat;
   max-height: 360px;
   max-width: 416px;
   height: 100%;
@@ -394,7 +394,7 @@ display:none;
 
 /* AVIS */
 #avis {
-  background: url(../background/bck_avis_v2.png) no-repeat;
+  background: url(background/bck_avis_v2.png) no-repeat;
   /*height: 1094px;*/
   max-width: 1600px;
   /* width: 338vh; */
@@ -538,7 +538,7 @@ display:none;
 }
 
 #triangle_bas {
-  background: url(../images/bas_triangle_avis_v2.png) no-repeat;
+  background: url(images/bas_triangle_avis_v2.png) no-repeat;
   max-height: 360px;
   max-width: 416px;
   height: 100%;
@@ -550,7 +550,7 @@ display:none;
 }
 
 #triangle_milieu_1_haut {
-  background: url(../images/haut_triangle_avis_v2.png) no-repeat;
+  background: url(images/haut_triangle_avis_v2.png) no-repeat;
   max-height: 360px;
   max-width: 416px;
   height: 100%;
@@ -562,7 +562,7 @@ display:none;
 }
 
 #triangle_milieu_1_bas {
-  background: url(../images/bas_triangle_avis_v2.png) no-repeat;
+  background: url(images/bas_triangle_avis_v2.png) no-repeat;
   max-height: 360px;
   max-width: 416px;
   height: 100%;
@@ -574,7 +574,7 @@ display:none;
 }
 
 #triangle_milieu_2_haut {
-  background: url(../images/haut_triangle_avis_v2.png) no-repeat;
+  background: url(images/haut_triangle_avis_v2.png) no-repeat;
   max-height: 360px;
   max-width: 416px;
   height: 100%;
@@ -587,7 +587,7 @@ display:none;
 
 
 #triangle_milieu_2_bas {
-  background: url(../images/bas_triangle_avis_v2.png) no-repeat;
+  background: url(images/bas_triangle_avis_v2.png) no-repeat;
   max-height: 360px;
   max-width: 416px;
   height: 100%;
@@ -599,7 +599,7 @@ display:none;
 }
 
 #triangle_bas_haut {
-  background: url(../images/haut_triangle_avis_v2.png) no-repeat;
+  background: url(images/haut_triangle_avis_v2.png) no-repeat;
   max-height: 360px;
   max-width: 416px;
   height: 100%;
@@ -613,7 +613,7 @@ display:none;
 /* MUSIQUE */
 
 #triangle_bas_bas {
-  background: url(../images/bas_triangle_avis_v2.png) no-repeat;
+  background: url(images/bas_triangle_avis_v2.png) no-repeat;
   max-height: 360px;
   max-width: 416px;
   height: 100%;
@@ -624,7 +624,7 @@ display:none;
 }
 
 #musique {
-background:url(../background/bck_musique_v2.png) no-repeat; 
+background:url(background/bck_musique_v2.png) no-repeat; 
 /*height:1194px;*/
 max-width:1600px;
 /* width: 338vh; */
@@ -697,7 +697,7 @@ span.wp-playlist-item-title {
 
 #icone_1_player
 {
-background: url(../images/player_1_v3.png) no-repeat;
+background: url(images/player_1_v3.png) no-repeat;
 width:282px;
 height:243px;
 float:left;
@@ -706,7 +706,7 @@ position:relative;
 
 #icone_2_player
 {
-background: url(../images/player_2_v3.png) no-repeat;
+background: url(images/player_2_v3.png) no-repeat;
 width:282px;
 height:243px;
 float:left;
@@ -715,7 +715,7 @@ position:relative;
 
 #icone_3_player
 {
-background: url(../images/player_3_v3.png) no-repeat;
+background: url(images/player_3_v3.png) no-repeat;
 width:282px;
 height:243px;
 float:left;
@@ -724,7 +724,7 @@ position:relative;
 
 #icone_4_player
 {
-  background: url(../images/player_4_v3.png) no-repeat;
+  background: url(images/player_4_v3.png) no-repeat;
   width: 282px;
   height: 243px;
   position: relative;
