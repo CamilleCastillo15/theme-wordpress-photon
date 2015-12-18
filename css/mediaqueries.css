@@ -1,0 +1,462 @@
+/* Only mobile version */
+@media screen and (max-width: 767px) {
+	
+	body {
+		overflow-x:hidden;
+	}
+	
+	/*	#page {
+		width:768px;
+		margin: 0 auto;
+	}*/
+	
+	/* HEADER */
+	
+	#menu_haut {
+	  width: 100%;
+	}
+	
+	#menu_haut ul {
+	  font-size: 2em;
+	  margin-left: -35px;
+	  padding-top: 11px;
+	}
+	
+	#menu_haut ul li {
+	  margin-left: 39px;
+	}
+	
+	#menu_haut ul li:last-child, #menu_haut ul li:nth-child(4){
+	  display:none;
+	}
+	
+	#img_logo {
+	  margin-left: 3%;
+	  margin-top: 16%;
+	}
+	
+	#photo_ampli {
+	  margin-top: 2%;
+	  margin-left: 2%;
+	}
+	
+	/* PHOTOS */
+	
+	#rectangle_photos {
+		  width: 1500px;
+		}
+	
+	#photo .su-custom-gallery-slide[data-index='0'] {
+	    display:none;
+	 }
+	  
+	 #photo .su-custom-gallery-slide[data-index='1'] {
+		left: 236px;
+		top: 20px;
+	}
+		
+	#photo .su-custom-gallery-slide[data-index='2'] {
+		display:none;
+	}
+	
+	#photo .su-custom-gallery-slide[data-index='3'] {
+		display:none;
+	}
+	
+	#photo .su-custom-gallery-slide[data-index='4'] {
+		  top: 236px;
+	}
+	
+	#photo .su-custom-gallery-slide[data-index='5'] {
+	      top: 236px;
+		  right: 455px;
+	}
+	
+	#photo .su-custom-gallery-slide[data-index='6'] {
+	    top: -213px;
+		left: 19px;
+	  }
+	  
+	 /* AVIS */
+	
+	#avis {
+	  height: 496px;
+	 }
+	
+	form#commentform {
+	  width: 84%;
+	  margin-left: 10px;
+	}
+	
+	#triangle_milieu_1_haut {
+	display:none;
+	}
+	
+	#triangle_milieu_1_bas {
+		display:none;
+	}
+	
+	#triangle_milieu_2_haut {
+		display:none;
+	}
+	
+	#triangle_milieu_2_bas {
+		display:none;
+	}
+	
+	/* MUSIQUE */
+
+	#musique {
+	  height: 1559px;
+	}
+		
+	
+	.mob-1, .mob-2, .mob-3,
+	.mob-4, .mob-5, .mob-6,
+	.mob-7, .mob-8, .mob-9,
+	.mob-10, .mob-11, .mob-12, {
+
+	}
+	
+	.mob-12 { width:100%; }
+	.mob-11 { width:91.66666667%; }
+	.mob-10 { width:83.33333333%; }
+	.mob-9 { width:75%; }
+	.mob-8 { width:66.66666667%; }
+	.mob-7 { width:58.33333333%; }
+	.mob-6 { width:50%; }
+	.mob-5 { width:41.66666667%; }
+	.mob-4 { width:33.33333333%; }
+	.mob-3 { width:25%;}
+	.mob-2 { width:16.66666667%; }
+	.mob-1 { width:8.333333333%; }
+	}
+	
+
+	}
+	
+
+/* Mobile and tablet version */
+@media screen and (max-width: 1199px) {
+
+}
+
+/* Only tablet version */
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	
+		body {
+		overflow-x:hidden;
+	}
+	
+		#page {
+		width:768px;
+		margin: 0 auto;
+	}
+	
+	/* HEADER */
+	
+	#menu_haut {
+	  width: 768px;
+	  height:55px;
+	}
+	
+	#menu_haut ul {
+	  font-size: 2em;
+	  margin-left: -35px;
+	  padding-top: 11px;
+	}
+	
+	#menu_haut ul li {
+	  margin-left: 39px;
+	}
+	
+	#menu_haut ul li:last-child {
+	  display:none;
+	}
+	
+	#img_logo {
+		margin-left: 29%;
+		margin-top: 33%;
+	}
+	
+	#photo_ampli {
+	  margin-top: 2%;
+	  margin-left: 37%;
+	}
+	
+	/* PHOTOS */
+	
+	#rectangle_photos {
+		  width: 768px;
+		}
+	
+	#photo .su-custom-gallery-slide[data-index='0'] {
+	    top: 235px;
+		left: 507px;
+	 }
+	  
+	 #photo .su-custom-gallery-slide[data-index='1'] {
+		top: 56px;
+		left: 270px;
+	}
+		
+	#photo .su-custom-gallery-slide[data-index='2'] {
+	    top: 235px;
+		right: 439px;
+	}
+	
+	#photo .su-custom-gallery-slide[data-index='3'] {
+	  bottom: 153px;
+  left: 290px;
+	}
+	
+	#photo .su-custom-gallery-slide[data-index='4'] {
+		display:none;
+	}
+	
+	#photo .su-custom-gallery-slide[data-index='5'] {
+	      top: 26px;
+		  left: 53px;
+	}
+	
+	#photo .su-custom-gallery-slide[data-index='6'] {
+	  bottom: 424px;
+		left: 35px;
+	  }
+	
+	/* AVIS */
+	
+	#avis {
+		height: 1094px;
+	}
+	
+	#formulaire_avis {
+	  width: 842px;
+	  background: url(../images/formulaire_avis.png) no-repeat;
+	  background-position: center center;
+	}
+	
+	form#commentform {
+	  margin-left: 131px;
+	  width:600px;
+	}
+	
+	p.comment-form-author {
+	margin-left: 21px;
+	}
+
+	p.comment-form-email {
+		margin-left: 40px;
+	}
+
+	p.comment-form-url {
+		margin-left: 58px;
+	}
+	
+	#triangle_milieu_1_haut {
+		display:none;
+	}
+	
+	#triangle_milieu_1_bas {
+		display:none;
+	}
+	
+	#triangle_milieu_2_haut {
+		display:none;
+	}
+	
+	#triangle_milieu_2_bas {
+		display:none;
+	}
+	
+	/* MUSIQUE */
+	
+	#musique {
+	  height: 1194px;
+	}
+	
+	.tab-1, .tab-2, .tab-3,
+	.tab-4, .tab-5, .tab-6,
+	.tab-7, .tab-8, .tab-9,
+	.tab-10, .tab-11, .tab-12, {
+
+	}
+	
+	.tab-12 { width:100%; }
+	.tab-11 { width:91.66666667%; }
+	.tab-10 { width:83.33333333%; }
+	.tab-9 { width:75%; }
+	.tab-8 { width:66.66666667%; }
+	.tab-7 { width:58.33333333%; }
+	.tab-6 { width:50%; }
+	.tab-5 { width:41.66666667%; }
+	.tab-4 { width:33.33333333%; }
+	.tab-3 { width:25%;}
+	.tab-2 { width:16.66666667%; }
+	.tab-1 { width:8.333333333%; }
+	
+}
+
+/* Computer and tablet version */
+@media screen and (min-width: 768px) {
+	
+	
+	
+}
+
+/* Only computer version */
+@media screen and (min-width: 1200px) {
+	
+	body {
+		overflow-x : hidden;
+	}
+	
+	/* HEADER */
+	
+	#menu_haut {
+	  width: 100%;
+	}
+	
+	#menu_haut ul {
+	  font-size: 2.5em;
+	  margin-left: 31px;
+	  padding-top: 15px;
+	}
+	
+	#menu_haut ul li {
+	   margin-left: 50px;
+	}
+	
+	#img_logo {
+	  margin-left: 50%;
+	  margin-top: 16%;
+	}
+	
+	#photo_ampli {
+	  margin-top: 2%;
+	  margin-left: 50%;
+	}
+	
+	/* PHOTOS */
+	
+	#rectangle_photos {
+		  width: 1500px;
+		}
+	
+	#photo .su-custom-gallery-slide[data-index='0'] {
+	    top: 235px;
+		left: 470px;
+	  }
+	  
+	#photo .su-custom-gallery-slide[data-index='1'] {
+		top: 56px;
+		left: 233px;
+	}
+		
+	#photo .su-custom-gallery-slide[data-index='2'] {
+	    top: 235px;
+		left: 211px;
+	}
+	
+	#photo .su-custom-gallery-slide[data-index='3'] {
+	  top: 56px;
+	  left: -26px;
+	}
+	
+	#photo .su-custom-gallery-slide[data-index='4'] {
+		  top: 240px;
+		  left: -850px;
+	}
+	
+	#photo .su-custom-gallery-slide[data-index='5'] {
+	  top: 26px;
+	  left: 904px;
+	}
+	
+	#photo .su-custom-gallery-slide[data-index='6'] {
+	  bottom: 386px;
+	  left: 904px;
+	}
+	
+	/* AVIS */
+	
+	#avis {
+		height: 1094px;
+	}
+	
+	 #formulaire_avis {
+		background: url(../images/formulaire_avis.png) no-repeat;
+	}
+	
+	#formulaire_avis {
+	  width: 842px;
+	}
+	
+	form#commentform {
+	  margin-left: 131px;
+	  width:600px;
+	}
+	
+	p.comment-form-author {
+	margin-left: 21px;
+	}
+
+	p.comment-form-email {
+		margin-left: 40px;
+	}
+
+	p.comment-form-url {
+		margin-left: 58px;
+	}
+	
+	/* MUSIQUE */
+
+	#musique {
+	  height: 1194px;
+	}
+	
+	.pc-1, .pc-2, .pc-3,
+	.pc-4, .pc-5, .pc-6,
+	.pc-7, .pc-8, .pc-9,
+	.pc-10, .pc-11, .pc-12, {
+
+	}
+	
+	.pc-12 { width:100%; }
+	.pc-11 { width:91.66666667%; }
+	.pc-10 { width:83.33333333%; }
+	.pc-9 { width:75%; }
+	.pc-8 { width:66.66666667%; }
+	.pc-7 { width:58.33333333%; }
+	.pc-6 { width:50%; }
+	.pc-5 { width:41.66666667%; }
+	.pc-4 { width:33.33333333%; }
+	.pc-3 { width:25%; }
+	.pc-2 { width:16.66666667%; }
+	.pc-1 { width:8.333333333%; }
+	
+
+}
+
+/* Print version */
+@media print {
+	
+}
+
+/* Media queries css file */
+
+.mob-1, .tab-1, .pc-1,
+.mob-2, .tab-2, .pc-2,
+.mob-3, .tab-3, .pc-3,
+.mob-4, .tab-4, .pc-4,
+.mob-2, .tab-2, .pc-2,
+.mob-5, .tab-5, .pc-5,
+.mob-6, .tab-6, .pc-6,
+.mob-7, .tab-7, .pc-7,
+.mob-8, .tab-8, .pc-8,
+.mob-9, .tab-9, .pc-9,
+.mob-10, .tab-10, .pc-10,
+.mob-11, .tab-11, .pc-11,
+.mob-12, .tab-12, .pc-12,{
+
+}

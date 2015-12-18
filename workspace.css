@@ -1,0 +1,69 @@
+<NotepadPlus>
+    <Project name="photon">
+        <Folder name="css">
+            <File name="css\editor-style.css" />
+            <File name="css\ie.css" />
+            <File name="css\ie7.css" />
+        </Folder>
+        <Folder name="genericons">
+            <File name="genericons\COPYING.txt" />
+            <File name="genericons\genericons.css" />
+            <File name="genericons\Genericons.eot" />
+            <File name="genericons\Genericons.svg" />
+            <File name="genericons\Genericons.ttf" />
+            <File name="genericons\Genericons.woff" />
+            <File name="genericons\LICENSE.txt" />
+            <File name="genericons\README.md" />
+        </Folder>
+        <Folder name="images">
+            <File name="images\ampli.png" />
+            <File name="images\avis_background.png" />
+            <File name="images\bg_header.png" />
+            <File name="images\icon_facebook.png" />
+            <File name="images\icon_twitter.png" />
+            <File name="images\img_header.png" />
+            <File name="images\logo.png" />
+            <File name="images\musique_background.png" />
+            <File name="images\triangle_1.png" />
+            <File name="images\triangle_2.png" />
+        </Folder>
+        <Folder name="inc">
+            <File name="inc\back-compat.php" />
+            <File name="inc\custom-header.php" />
+            <File name="inc\customizer.php" />
+            <File name="inc\template-tags.php" />
+        </Folder>
+        <Folder name="js">
+            <File name="js\color-scheme-control.js" />
+            <File name="js\customize-preview.js" />
+            <File name="js\functions.js" />
+            <File name="js\html5.js" />
+            <File name="js\keyboard-image-navigation.js" />
+            <File name="js\skip-link-focus-fix.js" />
+        </Folder>
+        <Folder name="languages">
+            <File name="languages\twentyfifteen.pot" />
+        </Folder>
+        <File name="404.php" />
+        <File name="archive.php" />
+        <File name="author-bio.php" />
+        <File name="comments.php" />
+        <File name="content-link.php" />
+        <File name="content-none.php" />
+        <File name="content-page.php" />
+        <File name="content-search.php" />
+        <File name="content.php" />
+        <File name="footer.php" />
+        <File name="functions.php" />
+        <File name="header.php" />
+        <File name="image.php" />
+        <File name="index.php" />
+        <File name="page.php" />
+        <File name="readme.txt" />
+        <File name="screenshot.png" />
+        <File name="search.php" />
+        <File name="sidebar.php" />
+        <File name="single.php" />
+        <File name="style.css" />
+    </Project>
+</NotepadPlus>
